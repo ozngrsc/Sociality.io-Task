@@ -1,0 +1,65 @@
+.nav_client_logos {
+    position: absolute;
+    width: 66px;
+    height: 2566px;
+    left: 0px;
+    top: 51px;
+    background-color: #2A2F33;
+}
+
+.client_logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+    margin-left: 14px;
+    margin-right: 15px;
+    margin-top: 9px;
+    margin-bottom: 13px;
+    color: white;
+    cursor: pointer;
+}
+
+.client_logos:hover {
+    color: #F55661;
+}
+
+.github {
+    color: #F55661;
+}
+
+.location {
+    position: absolute;
+    width: 3px;
+    height: 37px;
+    left: 0px;
+    top: 177px;
+}
+
+
+.insta_logo_button {
+    display: flex;
+    justify-content: end;
+}
+
+.insta_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: 2px;
+    border: none;
+    background-color: #3AC1A9;
+    border-radius: 100px;
+    font-family: sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 10px;
+    color: #FFFF;
+    pointer-events: none;
+}
+

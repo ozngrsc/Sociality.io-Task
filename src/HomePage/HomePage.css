@@ -1,0 +1,76 @@
+.home_page {
+    flex: 0.7;
+    margin-left: 300px;
+}
+
+
+.descriptions {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 493px;
+    height: 18px;
+    left: 319px;
+    top: 37px;
+}
+
+.desc_status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 319px;
+    margin-right: 20px;
+
+}
+
+.desc_status > p {
+    display: flex;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.14px;
+    color: #444444;
+}
+
+.desc_status > img {
+    margin-right: 10px;
+}
+
+.profile_pic {
+    position: absolute;
+    width: 63px;
+    height: 63px;
+    left: 1424px;
+    top: 30px;
+}
+
+
+.card_top {
+    display: flex;
+    position: absolute;
+    height: 446px;
+    left: 319px;
+    top: 86px;
+    margin-right: 31px;
+}
+
+.card_middle {
+    display: flex;
+    position: absolute;
+    height: 446px;
+    left: 319px;
+    top: 621px;
+    margin-right: 31px;
+}
+
+.card_bottom {
+    display: flex ;
+    position: absolute;
+    height: 446px;
+    left: 319px;
+    top: 1147px;
+    margin-right: 31px;
+}

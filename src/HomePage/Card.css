@@ -1,0 +1,193 @@
+.card {
+    position: absolute;
+    width: 369px;
+    height: 446px;
+    margin-right: 31px;
+}
+
+.colorbox {
+    position: absolute;
+    width: 40px;
+    height: 446px;
+    left: 0px;
+    top: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #ACACAC;
+}
+
+.colorbox_logo {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 213px;
+}
+
+.date {
+    position: absolute;
+    width: 188.25px;
+    height: 17px;
+    left: 61px;
+    top: 30.2px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ACACAC;
+}
+
+.actions {
+    position: absolute;
+    width: 53px;
+    height: 21px;
+    left: 295px;
+    top: 27px;
+}
+
+.actions_delete {
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    mix-blend-mode: normal;
+}
+
+.actions_options {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 32px;
+    top: 0px;
+    mix-blend-mode: normal;
+}
+
+.desc {
+    position: absolute;
+    width: 287px;
+    height: 60px;
+    left: 61px;
+    top: 66.51px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #959595;
+}
+
+.card_image {
+    position: absolute;
+    width: 284px;
+    height: 239px;
+    left: 61px;
+    top: 141px;
+
+}
+
+.reactions {
+    position: absolute;
+    width: 271px;
+    height: 18.58px;
+    left: 62px;
+    top: 400px;
+}
+
+.likes {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0px;
+    top: 1px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.likes_number {
+    position: absolute;
+    width: 49px;
+    height: 15px;
+    left: 27px;
+    top: 3.58px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #444444;
+}
+
+.comments {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    left: 68px;
+    top: 2px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.comments_number {
+    position: absolute;
+    width: 44px;
+    height: 15px;
+    left: 94px;
+    top: 3.58px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #444444;
+}
+
+.shares {
+    position: absolute;
+    width: 16px;
+    height: 18px;
+    left: 127px;
+    top: 0px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.shares_number {
+    position: absolute;
+    width: 37px;
+    height: 15px;
+    left: 152px;
+    top: 3.58px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #444444;
+}
+
+.views {
+    position: absolute;
+    width: 25px;
+    height: 13px;
+    left: 178px;
+    top: 3px;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.views_number {
+    position: absolute;
+    width: 59px;
+    height: 15px;
+    left: 212px;
+    top: 3.58px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #444444;
+}
+

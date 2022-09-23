@@ -1,0 +1,114 @@
+.nav_menu {
+    height: 2566px;
+    width: 208px;
+    margin-left: 66px;
+    margin-top: 51px;
+    background-color: #393D42;
+}
+
+.nav_icon {
+    position: absolute;
+    width: 19.52px;
+    height: 17.37px;
+    left: 5px;
+    top: 15px;
+}
+
+
+.svg_icons {
+    fill: #F55661;;
+}
+
+.accordion-button {
+    background-color: #393D42 !important;
+    color: white !important;
+    font-family:sans-serif !important;
+}
+
+
+.accordion .accordion-item {
+    background-color: #393D42;
+    color: white;
+    border: none;
+    font-family:sans-serif !important;
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: unset !important;
+    color: white;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+    box-shadow: none !important;
+    padding-left: 35px;
+}
+
+
+.accordion-button::after {
+    color: white !important;
+    background-image: url(../images/SeeMore.png) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/SeeLess.png) !important;
+    position: absolute;
+    left: 165px;
+    bottom: 25px;
+}
+
+ .accordion-header {
+    background-color: #F55661 !important;
+}
+
+
+.accordion-button:not(.collapsed) .svg_icons {
+    fill: white;
+}
+
+
+
+.notifications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notifications_value {
+    border: 1px solid #73D9C7;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 10;
+    width: 32px;
+    height: 20px;
+    right: 10px;
+    top: 15px;
+    background-color: #393D42;
+    mix-blend-mode: normal;
+    border-radius: 5px;
+    color: #FFFEFE;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 8.5px;
+    padding-top: 0.57px;
+}
+
+.accordion-button:not(.collapsed) .notifications_button {
+    background-color: white;
+    color: #393D42;
+    position: absolute;
+    z-index: 10;
+}
+
+.accordion-body {
+    cursor: pointer;
+}
+
+.accordion-body:hover {
+    color: #F55661; 
+}

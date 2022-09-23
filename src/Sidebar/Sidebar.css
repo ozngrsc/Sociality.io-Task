@@ -1,0 +1,19 @@
+.sidebar {
+    flex: 0.3;
+    position: absolute;
+    width: 274px;
+    height: 2566px;
+    left: 0px;
+    top: 0px;
+    background-color: #31363B;
+    flex: 0.3;
+}
+
+.nav_logo {
+    position: absolute;
+    width: 142px;
+    height: 28px;
+    left: 66px;
+    top: 12px;
+    background-color: rgba(0, 0, 0, 0.0001);
+}
